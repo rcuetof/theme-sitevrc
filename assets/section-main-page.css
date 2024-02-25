@@ -1,3 +1,13 @@
+/*COLORES*/
+.pink-text
+{color: #cda6ec;}
+.black-text
+{color: #000000;}
+.white-text
+{color: #ffffff;}
+.black-produc{border: 10px solid #000000; border-bottom: 50px solid #000000;}
+.pink-produc{border: 10px solid #cda6ec; border-bottom: 50px solid #cda6ec;}
+.white-produc{border: 10px solid #ffffff; border-bottom: 50px solid #ffffff;}
 /*BOTONES*/
 .text-btn
 {
@@ -7,85 +17,85 @@
   font-size: 24px;
 }
 .tar-mini-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/mini.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/mini.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-maxi-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/maxi.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/maxi.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-midi-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/midi.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/midi.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-beach-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/beach.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/beach.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-bridesmaid-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/bridesmaid.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/bridesmaid.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-casual-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/casual.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/casual.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-cocktail-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/cocktail.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/cocktail.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-floral-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/floral.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/floral.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-formal-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/formal.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/formal.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-graduation-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/graduation.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/graduation.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-party-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/party.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/party.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-psize-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/plussize.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/plussize.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-saten-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/saten.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/saten.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .tar-sweater-b {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/swater.png'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/swater.png'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
@@ -154,33 +164,33 @@ html {
     transform: translateY(-5px); /* Desplaza el botón hacia arriba al pasar el mouse */
 }
 .boton-home {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/home_14def66e-6930-4810-a5a9-3c29aa49e8b9.png?v=1708730811'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/home_14def66e-6930-4810-a5a9-3c29aa49e8b9.png?v=1708730811'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 
 .boton-shopping {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/shopping.png?v=1708730833'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/shopping.png?v=1708730833'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 
 .boton-read {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/readmore.png?v=1708730956'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/readmore.png?v=1708730956'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .boton-catdress {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/vewcat.png?v=1708730977'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/vewcat.png?v=1708730977'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
 }
 .boton-up {
-    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/up.png?v=1708730991'); /* Ruta a tu imagen PNG */
+    background-image: url('https://cdn.shopify.com/s/files/1/0588/7960/6899/files/up.png?v=1708730991'); /*   imagen PNG */
     background-position: center;  
     background-size: contain; /* Ajusta el tamaño de la imagen */
     background-repeat: no-repeat;
@@ -192,6 +202,19 @@ html {
   text-align: center;
   width: 100%;
   height 350px;
+  h2
+  {
+    border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
+padding: 38px;
+padding-top: -10px;
+text-align: left;
+text-align: justify;
+font-weight: 500;
+font-style: italic;
+margin-bottom: 10px;
+
+  }
 }
 .text-revista-white h1
     {
