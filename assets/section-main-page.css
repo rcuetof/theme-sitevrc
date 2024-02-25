@@ -539,7 +539,7 @@ z-index: -1; /* Para que el marco blanco esté detrás del contenido */
 font-size: 14px; /* Ajusta según sea necesario */
 color: #333; /* Color del texto */
 text-align: center;
-margin: 0;
+margin: 0px;
 padding: 5px;
 position: absolute; /* Cambiado a absolute para que el texto sea fijo */
 bottom: -10%; /* Asegúrate de que el texto esté en la parte inferior */
@@ -548,15 +548,14 @@ width: 100%; /* Asegúrate de que el texto ocupa todo el ancho disponible */
 }
 .contenido
 {
-border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
-padding: 38px;
-padding-top: -10px;
-text-align: left;
-text-align: justify;
-font-weight: 500;
-font-style: italic;
-margin-bottom: 10px;
+    border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
+    padding: 33px;
+    text-align: left;
+    text-align: justify;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 
