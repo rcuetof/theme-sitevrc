@@ -454,9 +454,7 @@ align-self: center;
 position: relative;
 width: 48%; /* Ajusta el ancho según tus necesidades */
 margin-bottom: 20px;
-padding: 20px;
-border: 10px solid #DBAAFC; /* Color del borde */
-border-bottom: 50px solid #DBAAFC; /* Color del borde */
+padding: 30px;
 border-radius: 3px; /* Bordes redondeados */
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 transition: transform 0.3s ease-in-out; /* Transición suave al pasar el ratón */
