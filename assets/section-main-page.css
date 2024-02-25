@@ -1,10 +1,7 @@
 /*COLORES*/
-.pink-text
-{color: #cda6ec;}
-.black-text
-{color: #000000;}
-.white-text
-{color: #ffffff;}
+.pink-text{color: #cda6ec;}
+.black-text{color: #000000;}
+.white-text{color: #ffffff;}
 .black-produc{border: 10px solid #000000; border-bottom: 50px solid #000000;}
 .pink-produc{border: 10px solid #a6ecb7; border-bottom: 50px solid #a6eca9;}
 .white-produc{border: 10px solid #ffffff; border-bottom: 50px solid #ffffff;}
@@ -444,8 +441,6 @@ position: relative;
 width: 48%; /* Ajusta el ancho según tus necesidades */
 margin-bottom: 20px;
 padding: 20px;
-border: 10px solid #DBAAFC; /* Color del borde */
-border-bottom: 50px solid #DBAAFC; /* Color del borde */
 border-radius: 3px; /* Bordes redondeados */
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 transition: transform 0.3s ease-in-out; /* Transición suave al pasar el ratón */
