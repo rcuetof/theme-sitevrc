@@ -173,11 +173,11 @@
               </p>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                  <center><H2>SPECS</H2></center>
-                   <div class="product__description rte quick-add-hidden" style={{ block.shopify_attributes }}>
-                     
-                     <div class="scrool">{{ product.description }}</div>
-                   </div>
+                <div class="product__tax caption rte">  
+                     <div class="product__description rte quick-add-hidden" style={{ block.shopify_attributes }}>
+                    <div class="scrool">{{ product.description }}</div>
+                 </div>
+               </div>
               {%- endif -%}
             {%- when 'sku' -%}
               <p
