@@ -1,12 +1,11 @@
 /*COLORES*/
-.pink-text
-{color: #cda6ec;}
+.pink-text{color: #cda6ec;}
 .black-text
 {color: #000000;}
 .white-text
 {color: #ffffff;}
 .black-produc{border: 10px solid #000000; border-bottom: 50px solid #000000;}
-.pink-produc{border: 10px solid #cda6ec; border-bottom: 50px solid #cda6ec;}
+.pink-produc{border: 10px solid #a6ecb1; border-bottom: 50px solid #a6eccb;}
 .white-produc{border: 10px solid #ffffff; border-bottom: 50px solid #ffffff;}
 /*BOTONES*/
 .text-btn
@@ -201,7 +200,6 @@ html {
   position: relative;
   text-align: center;
   width: 100%;
-  height 350px;
   h2
   {
     border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
