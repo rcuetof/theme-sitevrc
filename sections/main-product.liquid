@@ -177,6 +177,7 @@
                   <details id="Details-{{ block.id }}-{{ section.id }}">
                     <summary>
                       <div class="summary__title">
+                        <img scr="https://cdn.shopify.com/s/files/1/0588/7960/6899/files/ICO.png?v=1705653269" width="20" height="20">
                         {% render 'icon-accordion', icon: block.settings.icon %}
                         <h2 class="h4 accordion__title inline-richtext">
                           Description
@@ -188,13 +189,7 @@
                     </div>
                   </details>
                 </div>    
-                             
-                
-                
-                <div class="product__description rte quick-add-hidden" style={{ block.shopify_attributes }}>
-                      
-                    </div>
-               {%- endif -%}
+              {%- endif -%}
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
