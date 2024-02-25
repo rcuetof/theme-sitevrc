@@ -1,9 +1,12 @@
 /*COLORES*/
-.pink-text{color: #cda6ec;}
-.black-text{color: #000000;}
-.white-text{color: #ffffff;}
+.pink-text
+{color: #cda6ec;}
+.black-text
+{color: #000000;}
+.white-text
+{color: #ffffff;}
 .black-produc{border: 10px solid #000000; border-bottom: 50px solid #000000;}
-.pink-produc{border: 10px solid #a6ecb7; border-bottom: 50px solid #a6eca9;}
+.pink-produc{border: 10px solid #cda6ec; border-bottom: 50px solid #cda6ec;}
 .white-produc{border: 10px solid #ffffff; border-bottom: 50px solid #ffffff;}
 /*BOTONES*/
 .text-btn
@@ -198,8 +201,21 @@ html {
   position: relative;
   text-align: center;
   width: 100%;
-  }
+  height 350px;
+  h2
+  {
+    border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
+padding: 38px;
+padding-top: -10px;
+text-align: left;
+text-align: justify;
+font-weight: 500;
+font-style: italic;
+margin-bottom: 10px;
 
+  }
+}
 .text-revista-white h1
     {
       font-family: 'Alegreya', sans-serif;
@@ -441,6 +457,8 @@ position: relative;
 width: 48%; /* Ajusta el ancho según tus necesidades */
 margin-bottom: 20px;
 padding: 20px;
+border: 10px solid #DBAAFC; /* Color del borde */
+border-bottom: 50px solid #DBAAFC; /* Color del borde */
 border-radius: 3px; /* Bordes redondeados */
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 transition: transform 0.3s ease-in-out; /* Transición suave al pasar el ratón */
@@ -534,7 +552,7 @@ z-index: -1; /* Para que el marco blanco esté detrás del contenido */
 font-size: 14px; /* Ajusta según sea necesario */
 color: #333; /* Color del texto */
 text-align: center;
-margin: 0px;
+margin: 0;
 padding: 5px;
 position: absolute; /* Cambiado a absolute para que el texto sea fijo */
 bottom: -10%; /* Asegúrate de que el texto esté en la parte inferior */
@@ -543,15 +561,19 @@ width: 100%; /* Asegúrate de que el texto ocupa todo el ancho disponible */
 }
 .contenido
 {
-    border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
-    padding: 33px;
-    text-align: left;
-    text-align: justify;
-    font-weight: 500;
-    font-style: italic;
-    margin-bottom: 10px;
+border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
+padding: 38px;
+padding-top: -10px;
+text-align: left;
+text-align: justify;
+font-weight: 500;
+font-style: italic;
+margin-bottom: 10px;
 }
+
+
+
 @media screen and (max-width: 767px) { /*MOVIL*/
 .producto
 {

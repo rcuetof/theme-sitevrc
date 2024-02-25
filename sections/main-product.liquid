@@ -116,7 +116,6 @@
                   {%- if shop.shipping_policy.body != blank -%}
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
-                  
                 </div>
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -172,16 +171,15 @@
                   {%- endif -%}
                 {%- endif -%}
               </p>
-              {%- when 'description' -%}
-                {%- if product.description != blank -%}
-                  <div class="product__tax caption rte"> 
-                    <center><H2>SPECS</H2></center>
-                     <div class="product__description rte quick-add-hidden" style={{ block.shopify_attributes }}>
-                       <div class="scrool">{{ product.description }}</div>
-                     </div>
-                  </div>  
-                {%- endif -%}
-              {%- when 'sku' -%}
+            {%- when 'description' -%}
+              {%- if product.description != blank -%}
+                  <center><H2>SPECS</H2></center>
+                   <div class="product__description rte quick-add-hidden" style={{ block.shopify_attributes }}>
+                     
+                     <div class="scrool">{{ product.description }}</div>
+                   </div>
+              {%- endif -%}
+            {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
                 id="Sku-{{ section.id }}"
