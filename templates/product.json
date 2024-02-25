@@ -81,6 +81,12 @@
           "type": "description",
           "settings": {
           }
+        },
+        "sku_QVNafk": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "collapsible_tab_FziB97",
         "collapsible_tab_M4JkzH",
         "d6243221-7b95-4736-a120-c0bb86778198",
-        "description"
+        "description",
+        "sku_QVNafk"
       ],
       "custom_css": [
         ".media {transition: opacity 0.5s; transition: transform 4.5s;}",
