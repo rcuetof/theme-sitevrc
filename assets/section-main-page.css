@@ -5,8 +5,8 @@
 {color: #000000;}
 .white-text
 {color: #ffffff;}
-.black-produc{border: 10px solid #a59f4a; border-bottom: 50px solid #a59f4a;}
-.pink-produc{border: 10px solid #cda6ec; border-bottom: 50px solid #cda6ec;}
+.black-produc{border: 10px solid #000000; border-bottom: 50px solid #000000;}
+.pink-produc{border: 10px solid #a6ecb7; border-bottom: 50px solid #a6eca9;}
 .white-produc{border: 10px solid #ffffff; border-bottom: 50px solid #ffffff;}
 /*BOTONES*/
 .text-btn
@@ -557,9 +557,6 @@ width: 100%; /* Asegúrate de que el texto ocupa todo el ancho disponible */
     font-style: italic;
     margin-bottom: 10px;
 }
-
-
-
 @media screen and (max-width: 767px) { /*MOVIL*/
 .producto
 {
