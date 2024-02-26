@@ -5,20 +5,9 @@
       "type": "ecom-vicky-home",
       "settings": {
       }
-    },
-    "page_gVVWpg": {
-      "type": "page",
-      "settings": {
-        "page": "all-about-dress",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "ecom-vicky-home",
-    "page_gVVWpg"
+    "ecom-vicky-home"
   ]
 }
