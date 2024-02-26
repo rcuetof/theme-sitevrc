@@ -1,8 +1,4 @@
 {{ 'paypal.css' | asset_url | stylesheet_tag }}
-        <script
-          src="https://www.paypal.com/sdk/js?components=buttons,hosted-fields&client-id=<%= clientId %>"
-          data-client-token="<%= clientToken %>"
-        ></script>
         <div id="paypal-button-container" class="paypal-button-container"></div>
         <div class="card_container">
           <form id="card-form">

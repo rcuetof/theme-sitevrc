@@ -16,7 +16,6 @@
     }
   }
 {%- endstyle -%}
-<div>{% section 'paypal' %}</div>
 <div
   class="gradient color-{{ section.settings.color_scheme }}{% if cart == empty %} is-empty{% endif %}"
   id="main-cart-footer"
@@ -100,6 +99,8 @@
               {%- if additional_checkout_buttons -%}
                 <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}
+                  {% section "paypal" %}
+
                 </div>
               {%- endif -%}
           {%- endcase -%}
