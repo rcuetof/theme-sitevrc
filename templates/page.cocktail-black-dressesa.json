@@ -1,12 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "rich_text_Rkf44L": {
       "type": "rich-text",
       "blocks": {
@@ -141,11 +134,18 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main",
     "rich_text_Rkf44L",
-    "slideshow_EE3JnN"
+    "slideshow_EE3JnN",
+    "main"
   ]
 }
