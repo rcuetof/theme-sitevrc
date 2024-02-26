@@ -1,18 +1,5 @@
 {{ 'section-main-page.css' | asset_url | stylesheet_tag }}
 
-{%- liquid
-    assign video_alt = section.settings.video.alt | default: section.settings.description
-    assign poster = section.settings.video.preview_image | default: section.settings.cover_image
-  
-    if section.settings.video != null
-      assign ratio_diff = section.settings.video.aspect_ratio | minus: poster.aspect_ratio | abs
-      if ratio_diff < 0.01 and ratio_diff > 0
-        assign fix_ratio = true
-      endif
-    endif
-  -%}
-
-
 <!-------------productos-------------max-black--------------------> 
 <div class="producto-container">
     {% for product in collections.all.products limit: 4 %}
@@ -26,7 +13,7 @@
     {% endfor %}
   </div>
   <!-------------endproductos----------------------------------->
-  {% schema %}
+{% schema %}
 {
   "name": "Productos Destacados",
   "settings": [
