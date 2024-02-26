@@ -200,20 +200,8 @@ html {
   position: relative;
   text-align: center;
   width: 100%;
-  h2
-  {
-    border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
-padding: 38px;
-padding-top: -10px;
-text-align: left;
-text-align: justify;
-font-weight: 500;
-font-style: italic;
-margin-bottom: 10px;
-
   }
-}
+
 .text-revista-white h1
     {
       font-family: 'Alegreya', sans-serif;
@@ -559,17 +547,13 @@ width: 100%; /* Asegúrate de que el texto ocupa todo el ancho disponible */
 {
 border-radius: 10px; /* Bordes redondeados (asegúrate de que sea un valor positivo) */ 
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */  
-padding: 38px;
-padding-top: -10px;
+padding: 33px;
 text-align: left;
 text-align: justify;
 font-weight: 500;
 font-style: italic;
 margin-bottom: 10px;
 }
-
-
-
 @media screen and (max-width: 767px) { /*MOVIL*/
 .producto
 {
