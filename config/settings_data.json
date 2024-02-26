@@ -119,7 +119,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
-    "checkout_body_background_image": "shopify:\/\/shop_images\/50064c0f3ed34731803af1039bad7deb-Min_68b1cc10-e798-4d73-a8be-740656828273.jpg",
+    "checkout_body_background_color": "#f9eded",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
