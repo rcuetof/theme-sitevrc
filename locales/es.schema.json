@@ -656,6 +656,26 @@
         "name": "Formulario de contacto"
       }
     },
+    "tajetas-producto": {
+      "name": "Tarjeta de Productos VR",
+      "settings": {
+        "name": {
+          "label": "Titulo del Producto",
+          "info": "Añada productos"
+        },
+        "link-producto": {
+          "label": "link de compra",
+          "info": "Añada productos"
+        },
+        "imagen": {
+          "label": "imagen del producto",
+          "info": "Añada productos"
+        }
+      },
+        "presets": {
+        "name": "Liquid personalizado"
+      }
+    },
     "custom-liquid": {
       "name": "Liquid personalizado",
       "settings": {
