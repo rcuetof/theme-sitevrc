@@ -12,4 +12,18 @@
     {% endfor %}
   </div>
   <!-------------endproductos----------------------------------->
-  
+  {% schema %}
+{
+  "name": "Productos Destacados",
+  "settings": [
+    {
+      "type": "range",
+      "label": "Número de productos a mostrar",
+      "id": "cantidad_productos",
+      "min": 1,
+      "max": 10,
+      "default": 4
+    }
+  ]
+}
+{% endschema %}
