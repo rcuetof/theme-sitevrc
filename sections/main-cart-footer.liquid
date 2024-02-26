@@ -99,7 +99,7 @@
               {%- if additional_checkout_buttons -%}
                 <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}
-                  {{ 'sections.cart.title'| t }}
+                  {% section "paypal" | t %}
 
                 </div>
               {%- endif -%}
