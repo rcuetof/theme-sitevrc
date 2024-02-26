@@ -1,5 +1,6 @@
 {{ 'paypal.css' | asset_url | stylesheet_tag }}
-        <div id="paypal-button-container" class="paypal-button-container"></div>
+<section id="pay">      
+<div id="paypal-button-container" class="paypal-button-container"></div>
         <div class="card_container">
           <form id="card-form">
             <label for="card-number">Card Number</label>
@@ -85,3 +86,4 @@
         </div>
         <div id="threeds"></div>
         <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
+</section>
